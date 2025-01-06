@@ -171,18 +171,6 @@ jobs:
           plugin_screenshot_mode: image
           plugin_screenshot_selector: body
           plugin_screenshot_title: Screenshot
-          plugin_screenshot_viewport:
-            width: 1280
-            height: 1280
-          plugin_skyline: yes
-          plugin_skyline_compatibility: yes
-          plugin_skyline_frames: 60
-          plugin_skyline_quality: 0.5
-          plugin_skyline_settings:
-            url: "https://skyline.github.com/${login}/${year}"
-            ready: "[...document.querySelectorAll('span')].map(span => span.innerText).includes('Share on Twitter')"
-            wait: 1
-            hide: "button, footer, a"
           plugin_skyline_year: 2025
           plugin_splatoon: yes
           plugin_splatoon_salmon_limit: 1
